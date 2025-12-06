@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paris Showcase - Home</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+<header class="bg-blue-700 text-white p-4">
+<nav class="flex space-x-4 justify-center font-semibold">
+<a href="index.html" class="underline">Home</a>
+<a href="culture.html">Culture</a>
+<a href="landmarks.html">Landmarks</a>
+<a href="cuisine.html">Cuisine</a>
+<a href="travel.html">Travel Tips</a>
+</nav>
+</header>
+
+<main class="p-8">
+<section class="text-center max-w-3xl mx-auto">
+<h1 class="text-4xl font-bold mb-4">Welcome to Paris</h1>
+<p class="text-lg mb-6">Paris is a city of art, culture, food, and unforgettable landmarks. This five-page showcase highlights different facets of the French capital.</p>
+
+<figure class="mx-auto max-w-xl">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="The Eiffel Tower at sunset" class="rounded shadow" />
+<figcaption class="text-sm mt-2">The Eiffel Tower, one of the world's most iconic structures.</figcaption>
+</figure>
+</section>
+</main>
+
+<footer class="bg-blue-700 text-white p-4 text-center mt-10">
+<p>Contact: exploreparis@example.com</p>
+<p>Last updated <time datetime="2025-01-01">January 1, 2025</time></p>
+</footer>
+</body>
+</html>
